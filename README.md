@@ -1,4 +1,6 @@
-# Netflix 4K Capability Experiment
+# Netflix 4K 播放实验：适用于 Chrome 和 2K 显示器的扩展
+
+Netflix 4K Playback Experiment for Chrome and 2K Displays
 
 [中文](#中文) | [English](#english)
 
