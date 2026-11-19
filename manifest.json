@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix 4K Capability Experiment",
+  "version": "1.0.0",
+  "description": "Experimental display and media capability reporting for Netflix.",
+  "minimum_chrome_version": "140",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.netflix.com/*"
+      ],
+      "js": [
+        "inject.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
