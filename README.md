@@ -8,6 +8,20 @@
 
 **状态：实验性，未验证能够解锁 4K。** 本项目只修改网页读取到的部分能力值，不改变显示器、GPU、DRM、HDCP、许可证或 Netflix 提供的清单，也不强制选择最高码率。它可能导致画面排版异常、播放失败或误报硬件解码能力。移除闭源播放器后，旧版项目中基于播放器的码率选择功能不再存在。
 
+### 免费与使用声明
+
+本项目免费开源，旨在学习和研究浏览器媒体能力检测。它不是 Netflix 官方产品，也未获得 Netflix 背书。使用 Netflix 的 Ultra HD 内容需要订阅**支持 Ultra HD 的 Netflix 套餐**、选择支持 4K 的影片，并满足 Netflix 的其他适用条件；本扩展不能替代订阅或解锁套餐权益。
+
+修改 Netflix 页面的行为可能违反 Netflix 的服务条款，可能导致账号或使用限制，相关法律风险因地区和具体情况而异。免费、开源或“仅供学习”的声明不构成 Netflix 授权，也不能保证免除责任。请在使用前了解适用的 [Netflix 使用条款](https://help.netflix.com/legal/termsofuse)。
+
+### 权利投诉与联系
+
+我们重视知识产权和其他合法权益。本项目为独立、免费、非官方的研究项目，不包含 Netflix 影片或 Netflix 播放器文件，也不出售账号或订阅权益。项目的发布不代表 Netflix 对本项目的授权、认可或背书。
+
+如你认为本项目中的内容侵犯了你的著作权、商标权或其他合法权益，请通过下方邮箱联系我们，并提供权利归属、涉及内容及相关链接。收到通知后，我们将尽快核查，并在确认侵权后及时删除相关内容或采取适当处理措施。
+
+**联系邮箱：** [ysu9056@gmail.com](mailto:ysu9056@gmail.com)
+
 ### 条件与限制
 
 - Windows 11、Chrome 140 或更新版本；版本 140 是本项目目标，不是 Netflix 官方的最低版本。
@@ -42,6 +56,20 @@
 This experimental Manifest V3 extension targets Windows 11, Google Chrome 140+, and non-4K displays such as 2560×1440. It explores whether modifying some display and HEVC capability reports affects Netflix's selection of a 3840×2160 stream.
 
 **Status: experimental; 4K unlocking has not been verified.** The extension cannot change the display, GPU, DRM, HDCP, license, or available Netflix streams, and does not force the maximum bitrate. It may cause layout issues, playback errors, or inaccurate hardware capability reports. Removing the third-party player also removes the earlier player-based bitrate preference.
+
+### Free and educational-use notice
+
+This project is free and open source and is intended for learning and research into browser media capability detection. It is not an official Netflix product and is not endorsed by Netflix. Access to Netflix Ultra HD content requires **a Netflix plan that supports Ultra HD**, a title available in 4K, and compliance with Netflix's other applicable requirements. This extension does not replace a subscription or grant plan benefits.
+
+Modifying the Netflix page may violate Netflix's terms and may result in account or usage restrictions. Legal risks depend on jurisdiction and circumstances. A free, open-source, or educational-use notice does not constitute Netflix authorization or guarantee immunity from liability. Review the applicable [Netflix Terms of Use](https://help.netflix.com/legal/termsofuse) before use.
+
+### Rights concerns and contact
+
+We respect intellectual property and other lawful rights. This independent, free, unofficial research project does not include Netflix films or Netflix player files and does not sell accounts or subscription benefits. Publication does not imply authorization, approval, or endorsement by Netflix.
+
+If you believe material in this project infringes your copyright, trademark, or other lawful rights, please contact us at the address below with details of your rights, the material concerned, and relevant links. We will review notices promptly and remove infringing material or take appropriate action once infringement is confirmed.
+
+**Contact:** [ysu9056@gmail.com](mailto:ysu9056@gmail.com)
 
 ### Requirements and limitations
 
